@@ -1,0 +1,6 @@
+dependencies:
+  espressif/esp_h264: ^1.3
+  espressif/esp_video: ^2.4
+  idf: '>=5.4'
+  mushbraindave/esp_cam_sensor_imx:
+    version: ^0.3.0

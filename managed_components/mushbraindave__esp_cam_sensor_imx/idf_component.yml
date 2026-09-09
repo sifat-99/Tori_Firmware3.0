@@ -1,0 +1,43 @@
+dependencies:
+  espressif/esp_cam_sensor: ^2.4
+  idf: '>=5.4'
+description: 'Sony IMX-series MIPI-CSI camera sensor drivers for the ESP32-P4 esp_cam_sensor
+  / esp_video framework, plus the DW9807 autofocus VCM. Brings the Raspberry Pi Camera
+  Module 3 (IMX708) to the ESP32-P4: streaming, ISP tuning, autofocus and five resolution
+  modes switchable at run time. Also drives the Raspberry Pi Camera Module v2 / NoIR
+  v2 (IMX219): streaming, ISP tuning, stills and H.264 video, verified on hardware.
+  The v2 module is fixed-focus, so no autofocus there.'
+documentation: https://github.com/mushBrainDave/esp32-p4-imx-camera/blob/main/components/esp_cam_sensor_imx/README.md
+files:
+  exclude:
+  - examples/**/build/**/*
+  - examples/**/managed_components/**/*
+  - examples/**/sdkconfig
+  - examples/**/sdkconfig.old
+  - examples/**/dependencies.lock
+  - examples/**/wifi_credentials.h
+  - examples/**/capture/**/*
+  - examples/**/shot/**/*
+  - examples/**/clip*/**/*
+  - examples/**/mode*/**/*
+  - examples/**/console*/**/*
+  - examples/**/manual/**/*
+  - dist/**/*
+issues: https://github.com/mushBrainDave/esp32-p4-imx-camera/issues
+license: Apache-2.0
+repository: git://github.com/mushBrainDave/esp32-p4-imx-camera.git
+repository_info:
+  commit_sha: 1f136d1f4c607dc1bc53a5951ad0e94abbb1d31f
+  path: components/esp_cam_sensor_imx
+tags:
+- camera
+- mipi-csi
+- imx708
+- imx219
+- raspberry-pi-camera
+- autofocus
+- esp_cam_sensor
+targets:
+- esp32p4
+url: https://github.com/mushBrainDave/esp32-p4-imx-camera/tree/main/components/esp_cam_sensor_imx
+version: 0.3.0
